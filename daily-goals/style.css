@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.container{
+    background-color: gainsboro;
+    background-image: url(./cool-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-repeat: round; */
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h1{
+    /* align-self: center; */
+    margin: 20px 20px;
+    font: 500 3rem "Roboto",sans-serif;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input, textarea, button{
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font: 100 1.1rem sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+input, textarea{
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+button{
+    background-color: rgba(255, 30, 0, 0.7);
+    /* color: antiquewhite; */
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    width: 25%;
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+button:hover{
+    background-color: rgb(0, 131, 113);
+    /* rgb(1, 139, 139); */
+    color: antiquewhite;
+}
+
+button:active{
+    color: antiquewhite;
+    background-color: rgb(0, 195, 255);
+}
+
+hr{
+    margin: 3vmax 0;
+    color: gainsboro;
+    height: 2px;
+    background-color: gainsboro;
+    border: none;
+}
+
+.task{
+    background-color: rgb(191, 172, 207);
+    font: 100 1.1rem sans-serif;
+    padding: 30px;
+    margin: 2vmax;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: rgb(70, 70, 70);
+}
+
+.task span{
+    color: rgb(70, 70, 70);
+}
+
+.deleteBtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.7rem;
+    display: flex;
+    align-items:center;
+    color: antiquewhite;
+    background-color: rgb(91, 0, 177);
+    position: sticky;
+    /* top: 0%; */
+    left: 80%;
+}
+
+.task > div{
+    width: 50%;
+}
+
+
+
+
